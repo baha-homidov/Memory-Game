@@ -4,9 +4,9 @@ import "../assets/styles/Title.css";
 function Title() {
   return (
     <div className="header-container">
-      <div>Memory Game</div>
-      <div>
-        Get points by clicking n a image but don't click on any more than once.
+      <div className="title">Memory Game</div>
+      <div className="instructions">
+        Get points by clicking on an image but don't click on any more than once.
       </div>
     </div>
   );

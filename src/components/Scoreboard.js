@@ -6,7 +6,7 @@ function Scoreboard(props) {
     <div className="scoreboard-container">
       <div>Current score: {props.currentScore}</div>
       <div>Best score: {props.highestScore }</div>
-      <div>Best possible score: 18</div>
+      <div>Best possible score: 12</div>
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.gameboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 270px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+  cursor: pointer;
+  height: 250px;
+  width: 180px;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+img:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

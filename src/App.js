@@ -1,6 +1,5 @@
 import "./assets/styles/App.css";
-import Cardgrid from "./components/Cardgrid";
-import Scoreboard from "./components/Scoreboard";
+import Gameboard from "./components/Gameboard";
 import Title from "./components/Title";
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
       <div className="header">
         <Title />
       </div>
-      <Cardgrid />
+      <Gameboard />
     </div>
   );
 }
