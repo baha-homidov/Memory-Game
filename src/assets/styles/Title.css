@@ -1,0 +1,4 @@
+.header-container {
+  border: 1px solid red;
+  max-width: min(50vw, 600px);
+}

@@ -1,0 +1,4 @@
+.scoreboard-container {
+  border: 1px solid blue;
+  max-width: min(40vw, 300px);
+}
